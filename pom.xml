@@ -40,6 +40,17 @@
 		    <url>http://13.233.125.37:8081/repository/maven-releases/</url>
 		</repository>
   	</distributionManagement>
+<build>
+    <pluginManagement>
+         <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.4.0.905</version>
+            </plugin>
+         </plugins>
+     </pluginManagement>
+</build>
 	
 <build>
     <plugins>
