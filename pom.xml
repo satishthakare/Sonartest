@@ -49,10 +49,7 @@
                 <version>3.4.0.905</version>
             </plugin>
          </plugins>
-     </pluginManagement>
-</build>
-	
-<build>
+     
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -69,6 +66,7 @@
             <version>2.19</version>
         </plugin>
     </plugins>
+</pluginManagement>
 </build>
 	
 </project>
